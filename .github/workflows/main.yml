@@ -31,6 +31,9 @@ jobs:
         envkey_DB_DIALECT: ${{ secrets.DB_DIALECT }}
         envkey_PUBLIC_VAPID_KEY: ${{secrets.PUBLIC_VAPID_KEY}}
         envkey_PRIVATE_VAPID_KEY: ${{secrets.PRIVATE_VAPID_KEY}}
+        
+    - name: Move directory
+      run: mv . ~/dylan-fyp/web
       
     - name: Restart Docker
-      run: docker restart 6a18406cbc61
+      run: docker restart 5c64fd88fb03
