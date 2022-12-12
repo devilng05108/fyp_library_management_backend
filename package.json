@@ -20,7 +20,7 @@
     "cors": "^2.8.5",
     "csv-parser": "^2.3.3",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs-extra": "^9.0.1",
     "googleapis": "^59.0.0",
     "image-data-uri": "^2.0.1",
